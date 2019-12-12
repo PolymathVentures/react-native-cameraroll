@@ -509,7 +509,7 @@ public class CameraRollModule extends ReactContextBaseJavaModule {
           node.putMap("location", location);
         }
     }catch (IOException e){
-      FLog.e(ReactConstants.TAG, "Could read the metadata", e);
+      FLog.e(ReactConstants.TAG, "Couldn't read the metadata", e);
     }
   }
 }
